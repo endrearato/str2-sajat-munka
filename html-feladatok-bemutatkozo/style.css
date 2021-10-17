@@ -4,7 +4,7 @@
 }
 
 html, body {
-    background: rgba(151, 148, 148, 1);
+    background: #BDA5AB;
     margin:0 auto;
     width: 80vw;
 }
@@ -39,7 +39,9 @@ nav ul li {
 
 nav ul li:hover {
     cursor: pointer;
-    background: rgba(0,0,0,0.1);
+    background: #B9B9B9;
+    color: #002120;
+    box-shadow: 0 0 3px #412728;
 }
 
 nav ul li:last-child {
@@ -48,7 +50,7 @@ nav ul li:last-child {
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: #47817F;
 }
 
 .gridArticle {
@@ -149,19 +151,42 @@ img {
 
 p {
     margin: 0 auto 25px 5px;
+    color: #47817F;
+}
+
+.main h2 {
+    margin-bottom: 10px;
+}
+
+.main p {
+    margin: 0;
+}
+
+.main {
+    color: #47817F;
+}
+
+.aside {
+    color: #47817F;
 }
 
 h1 {
     margin: 5px auto 20px 5px;
-    color: rgb(226, 224, 224);
+    color: #B9B9B9;
+    text-shadow: 0 0 0.5px whitesmoke;
 }
 
 h3 {
     text-transform: uppercase;
+    color: #47817F;
+}
+
+h2 {
+    color:#47817F;
 }
 
 nav {
-    background: rgba(255, 255, 255, 0.1);
+    background: transparent;
 }
 
 .link {
@@ -176,8 +201,9 @@ footer a {
 }
 
 footer a:hover {
-    background: rgb(226, 224, 224);
-    color: rgba(0,0,0,0.4);
+    background: #B9B9B9;
+    color: #002120;
+    box-shadow: 0 0 3px #4B4A54;
 }
 
 .button {
@@ -208,21 +234,21 @@ footer a:hover {
 
 .box1 {
     grid-area: box1;    
-    border: 1px solid lightblue;
+    border: 1px solid #254D4C;
 }
 
 .box2 {
     grid-area: box2;
-    border: 1px solid lightblue;
+    border: 1px solid #254D4C;
 }
 
 .box3 {
     grid-area: box3;
-    border: 1px solid lightblue;
+    border: 1px solid #254D4C;
 }
 
 section {
-    border:1px solid lightblue;
+    border:1px solid #254D4C;
     margin-top: 5px;
 }
 

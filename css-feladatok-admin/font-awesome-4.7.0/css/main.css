@@ -63,6 +63,7 @@ li a {
     margin-right: 1rem;
     position: absolute;
     right: 100px;
+    display: inline;
 }
 
 .search__btn {

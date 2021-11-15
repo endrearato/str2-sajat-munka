@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: brown;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+.container {
+    width: 600px;
+    position: abolute;
+    margin: 0 auto;
+}
+.time {
+    position: relative;
+    left: 0;
+    color: whitesmoke;
+    font-size: larger;
+}
+
+p {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.memory-card {
+    width: 18%;
+    height: 25%;
+    border: 2px solid lightblue;
+    margin: 5px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.memory-card.flip {
+    transform: rotateY(180deg);
+}
+
+.game-area {
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    perspective: 1000px;
+}
+
+.front-face, .back-face {
+    border: 2px solid rgb(228, 131, 131);
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background: blue;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front-face {
+    transform: rotateY(180deg);
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    left: 255px;
+}

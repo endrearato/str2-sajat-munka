@@ -12,7 +12,7 @@
     <h1>Keresd a párját</h1>
     <p>kattints az egyik kártyára a játék elindításához</p>
     <div class="time">
-        Time: <span id="time">00:00</span>
+        Time: <span id="countdown" class="timer"></span>
     </div>
     <div class="game-area">
         <div class="memory-card" data-pic="pic1">
@@ -56,7 +56,8 @@
             <img class="back-face" src="./Pics/back.jpg" alt="back">
         </div>
     </div>    
-    <button onclick="newGame()">Try it</button>
+    <button onclick="newGame()">Restart</button>
+    <button onclick="setInterval(setInterval('start()', 1000))">Stopper start</button>
     </div>
     <script src="main.js" defer></script>
 </body>

@@ -56,3 +56,28 @@ function mixingTheCards(){
     })
 };
 cards.forEach(card => card.addEventListener('click', flipCard));
+
+let upgradeTime = 1;
+let seconds = upgradeTime;
+
+function start() {
+  let days        = Math.floor(seconds/24/60/60);
+  let hoursLeft  = Math.floor((seconds) - (days*86400));
+  let hours      = Math.floor(hoursLeft/3600);
+  let minutesLeft = Math.floor((hoursLeft) - (hours*3600));
+  let minutes    = Math.floor(minutesLeft/60);
+  let remainingSeconds = seconds % 60;
+  
+  function pad(n) {
+    return (n < 10 ? "0" + n : n);
+   
+  }
+  
+  document.getElementById('countdown').textContent =pad(minutes) + ":" + pad(remainingSeconds);  //pad(hours) + ":" + 
+  if (seconds == 0) {
+    clearInterval(countdownTimer);
+    document.getElementById('countdown').innerHTML = "Completed";
+  } else {
+    seconds++;
+  }
+};

@@ -13,7 +13,7 @@ A footer egységesen: Muli, Helvetica, Arial, sans-serif
 */
 
 .first-part {    
-    background-image: linear-gradient(to right, rgba(183,28,27,0.5) , rgba(128,0,128,0.5)), url(./img/bg-pattern.png);    
+    background-image:url(./img/bg-pattern.png), linear-gradient(to right, rgba(183,28,27,1) , rgba(128,0,128,1));    
 }
 
 .second-part {
@@ -21,10 +21,56 @@ A footer egységesen: Muli, Helvetica, Arial, sans-serif
 }
 
 .fourth-part {
-    background: url(./img/bg-cta.jpg) center center;
+    background-image: url(./img/bg-cta.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    height: 50vh;
+}
+
+.fifth-part {
+    background-color: yellow;
+}
+
+footer {
+    background-color: black;
+    color: gray;
+    text-align: center;    
+}
+
+footer a {
+    text-decoration: none;
+    color: gray;
+}
+
+.twitter {
+    max-height: 100px;
+}
+
+.face {
+    max-height: 100px;
+}
+
+.google {
+    max-height: 100px;
 }
 
 .phone {
     max-width: 100%;
     max-height: 300px;
+}
+
+p {
+    display: block;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
 }

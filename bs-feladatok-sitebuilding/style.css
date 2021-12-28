@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Lato&family=Mulish&display=swap');
+
+/*font-family: 'Catamaran', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Mulish', sans-serif;
+
+A címsorok és menük betűtípusa: Catamaran, Helvetica, Arial, sans-serif
+Gombok szövege, felső menü linkek: Lato, Helvetica, Arial, sans-serif
+Bekezdések: Muli, Helvetica, Arial, sans-serif
+A footer egységesen: Muli, Helvetica, Arial, sans-serif
+*/
+
+.first-part {    
+    background-image: linear-gradient(to right, rgba(183,28,27,0.5) , rgba(128,0,128,0.5)), url(./img/bg-pattern.png);    
+}
+
+.second-part {
+    background: yellow;
+}
+
+.fourth-part {
+    background: url(./img/bg-cta.jpg) center center;
+}
+
+.phone {
+    max-width: 100%;
+    max-height: 300px;
+}

@@ -16,6 +16,12 @@ A footer egységesen: Muli, Helvetica, Arial, sans-serif
     background-image:url(./img/bg-pattern.png), linear-gradient(to right, rgba(183,28,27,1) , rgba(128,0,128,1));    
 }
 
+.navbar {
+    position: sticky;
+    top: 0;
+    background-image:url(./img/bg-pattern.png), linear-gradient(to right, rgba(183,28,27,1) , rgba(128,0,128,1));
+}
+
 .second-part {
     background: yellow;
 }
@@ -34,12 +40,13 @@ A footer egységesen: Muli, Helvetica, Arial, sans-serif
 footer {
     background-color: black;
     color: gray;
-    text-align: center;    
+    text-align: center; 
 }
 
 footer a {
     text-decoration: none;
     color: gray;
+    font-family: Catamaran, Helvetica, Arial, sans-serif;
 }
 
 .twitter {
@@ -54,23 +61,47 @@ footer a {
     max-height: 100px;
 }
 
+.pos {
+    position: relative;
+}
+
 .phone {
     max-width: 100%;
     max-height: 300px;
 }
 
+.screen {
+    position: absolute;
+    max-height: 76%;
+    top: 12%;
+    left: 34.5%;
+}
+
 p {
     display: block;
+    font-family: Muli, Helvetica, Arial, sans-serif;
 }
 
 h1 {
-
+    font-family: Catamaran, Helvetica, Arial, sans-serif;
 }
 
 h2 {
-
+    font-family: Catamaran, Helvetica, Arial, sans-serif;
 }
 
 h3 {
+    font-family: Catamaran, Helvetica, Arial, sans-serif;
+}
 
+button {
+    font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+footer {
+    font-family: Muli, Helvetica, Arial, sans-serif;
+}
+
+a:hover {
+    color: white;
 }

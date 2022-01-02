@@ -1,0 +1,47 @@
+* {
+	border: 0px;
+	padding: 0px;
+}
+
+body {
+  /*background-color: lightgrey;  */
+}
+
+#table {
+  margin: 150px auto 1000px;
+  width: 400px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  background: lightgrey;
+}
+
+.textview {
+    width: 350px;
+    height: 60px;
+    margin: 10px 25px;
+}
+
+td {
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  box-shadow: 2px 1px 3px grey;
+}
+
+table {
+  
+  margin: 10px auto 10px auto;
+}
+
+td:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+td:active {
+  box-shadow: none;
+}

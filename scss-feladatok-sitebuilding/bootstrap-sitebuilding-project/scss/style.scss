@@ -7,13 +7,23 @@ body {
     margin: 0;
 }
 
+#modal {
+    display: none;
+}
+
 header {
     background-image:url(./img/bg-pattern.png), linear-gradient(to right, colors.$gradient_start, colors.$gradient_end);
     font-family: fonts.$paragraph_link;
     padding: 25px 10px 25px 10px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
     a {
         text-decoration: none;
         color: colors.$white;
+        &:hover {
+            color: colors.$yellow
+        }
     }
     li {
         list-style: none;
@@ -55,6 +65,10 @@ header {
         padding: 5px 10px;
         display: block;
         margin: 50px auto;
+        &:hover {
+            background-color: colors.$button_hover;
+            border: 1px solid colors.$button_hover;
+        }
     }
 }
 
@@ -111,6 +125,10 @@ header {
         color: colors.$white;
         padding: 5px 10px;
         margin-left: 10%;
+        &:hover {
+            background-color: colors.$button_hover;
+            border: 1px solid colors.$button_hover;
+        }
     }
     p {
         color: colors.$white;
@@ -149,5 +167,8 @@ footer {
         text-decoration: none;
         color: colors.$footer_text;
         margin-right: 10px;
+        &:hover {
+            color: colors.$button_hover;
+        }
     }
 }

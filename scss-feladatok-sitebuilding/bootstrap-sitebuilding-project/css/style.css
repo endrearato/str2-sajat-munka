@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&family=Lato&family=Mulish&display=swap");
+header {
+  background-image: url(./img/bg-pattern.png), linear-gradient(to right, #de2634, #7b4290);
+  font-family: Muli, Helvetica, Arial, sans-serif;
+  padding: 25px 0 25px 0;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+header li {
+  list-style: none;
+  float: right;
+  margin-left: 10px;
+}
+header::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.first {
+  background-image: url(./img/bg-pattern.png), linear-gradient(to right, #de2634, #7b4290);
+  font-family: Catamaran, Helvetica, Arial, sans-serif;
+  position: relative;
+  height: 50vh;
+}
+.first img {
+  position: absolute;
+  right: 20%;
+}
+.first p {
+  color: white;
+  font-size: 2rem;
+  line-height: 1.5rem;
+  display: inline;
+}
+.first button {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 15px;
+  color: white;
+  padding: 5px 10px;
+  display: block;
+}
+
+.second {
+  background-color: #fdcb4e;
+  padding: 25px 0 25px 0;
+  font-family: Catamaran, Helvetica, Arial, sans-serif;
+}
+
+.third {
+  font-family: Catamaran, Helvetica, Arial, sans-serif;
+}
+
+.fourth {
+  font-family: Catamaran, Helvetica, Arial, sans-serif;
+  background-image: url(./bootstrap-sitebuilding-project/img/bg-cta.jpg);
+  background-position: center;
+  height: 50vh;
+}
+.fourth button {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 15px;
+  color: white;
+  padding: 5px 10px;
+}
+
+.fifth {
+  font-family: Catamaran, Helvetica, Arial, sans-serif;
+  background-color: #fdcb4e;
+  text-align: center;
+}
+.fifth img {
+  max-width: 50px;
+}
+
+footer {
+  font-family: Catamaran, Helvetica, Arial, sans-serif;
+  background-color: black;
+  text-align: center;
+}
+footer p {
+  color: white;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

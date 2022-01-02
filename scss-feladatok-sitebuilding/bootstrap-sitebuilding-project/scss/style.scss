@@ -2,10 +2,94 @@
 @use 'fonts';
 
 header {
-    background-image:url(./img/bg-pattern.png), linear-gradient(to right, rgba(183,28,27,1) , rgba(128,0,128,1));
+    background-image:url(./img/bg-pattern.png), linear-gradient(to right, colors.$gradient_start, colors.$gradient_end);
     font-family: fonts.$paragraph_link;
+    padding: 25px 0 25px 0;
+    a {
+        text-decoration: none;
+        color: colors.$white;
+    }
+    li {
+        list-style: none;
+        float: right;
+        margin-left: 10px;
+    }
+    &::after {
+        content:'';
+	    clear: both;
+	    display: table
+    }
+}
+
+.first {
+    background-image:url(./img/bg-pattern.png), linear-gradient(to right, colors.$gradient_start, colors.$gradient_end);
+    font-family: fonts.$headers;
+    position: relative;
+    height: 50vh;
+    img {
+        position: absolute;
+        right: 20%;
+    }
+    p {
+        color: colors.$white;
+        font-size: 2rem;
+        line-height: 1.5rem;
+        display: inline;
+    }
+    button {
+        font-family: fonts.$buttons;
+        background: transparent;
+        border: 1px solid colors.$white;
+        border-radius: 15px;
+        color: colors.$white;
+        padding: 5px 10px;
+        display: block;
+    }
 }
 
 .second {
     background-color: colors.$yellow;
+    padding: 25px 0 25px 0;
+    font-family: fonts.$headers;
+}
+
+.third {
+    font-family: fonts.$headers;
+}
+
+.fourth {
+    font-family: fonts.$headers;
+    background-image: url(./bootstrap-sitebuilding-project/img/bg-cta.jpg);
+    background-position: center;
+    height: 50vh;
+    button {
+        font-family: fonts.$buttons;
+        background: transparent;
+        border: 1px solid colors.$white;
+        border-radius: 15px;
+        color: colors.$white;
+        padding: 5px 10px;
+    }
+}
+
+.fifth {
+    font-family: fonts.$headers;
+    background-color: colors.$yellow;
+    text-align: center;
+    img {
+        max-width: 50px;
+    }
+}
+
+footer {
+    font-family: fonts.$headers;
+    background-color: colors.$black;
+    text-align: center;
+    p {
+        color: colors.$white;
+    }
+    a {
+        text-decoration: none;
+        color: colors.$white;
+    }
 }

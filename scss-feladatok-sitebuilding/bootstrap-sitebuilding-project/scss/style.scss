@@ -1,10 +1,16 @@
 @use 'colors';
 @use 'fonts';
 
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 header {
     background-image:url(./img/bg-pattern.png), linear-gradient(to right, colors.$gradient_start, colors.$gradient_end);
     font-family: fonts.$paragraph_link;
-    padding: 25px 0 25px 0;
+    padding: 25px 10px 25px 10px;
     a {
         text-decoration: none;
         color: colors.$white;
@@ -25,10 +31,14 @@ header {
     background-image:url(./img/bg-pattern.png), linear-gradient(to right, colors.$gradient_start, colors.$gradient_end);
     font-family: fonts.$headers;
     position: relative;
-    height: 50vh;
+    height: 100vh;
+    text-align: center;
+    padding-top: 20vh;
+    padding-left: 50px;
+    padding-right: 50px;
     img {
-        position: absolute;
-        right: 20%;
+        margin: 0 auto;
+        height: 40vh;
     }
     p {
         color: colors.$white;
@@ -44,24 +54,55 @@ header {
         color: colors.$white;
         padding: 5px 10px;
         display: block;
+        margin: 50px auto;
     }
 }
 
 .second {
     background-color: colors.$yellow;
-    padding: 25px 0 25px 0;
+    text-align: center;
     font-family: fonts.$headers;
+    height: 80vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    a {
+        display: block;
+        margin-top: 10px;
+    }
+    h3 {
+        font-size: 3rem;
+        line-height: 2rem;
+        padding-top: 30vh;
+    }
 }
 
 .third {
     font-family: fonts.$headers;
+    text-align: center;
+    margin: 100px 0;
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    h3 {
+        font-size: 3rem;
+    }
+    i {
+        color: colors.$icons;
+        font-size: 4rem;
+    }
+    hr {
+        color: colors.$icons;
+    }
 }
 
 .fourth {
     font-family: fonts.$headers;
     background-image: url(./bootstrap-sitebuilding-project/img/bg-cta.jpg);
     background-position: center;
-    height: 50vh;
+    height: 100vh;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     button {
         font-family: fonts.$buttons;
         background: transparent;
@@ -69,6 +110,12 @@ header {
         border-radius: 15px;
         color: colors.$white;
         padding: 5px 10px;
+        margin-left: 10%;
+    }
+    p {
+        color: colors.$white;
+        margin-left: 10%;
+        font-size: 3rem;
     }
 }
 
@@ -76,8 +123,17 @@ header {
     font-family: fonts.$headers;
     background-color: colors.$yellow;
     text-align: center;
+    padding: 150px 50px;
     img {
         max-width: 50px;
+    }
+    h2 {
+        color: colors.$black;
+        font-size: 3rem;
+        p {
+            color: colors.$red;
+            display: inline;
+        }
     }
 }
 
@@ -85,11 +141,13 @@ footer {
     font-family: fonts.$headers;
     background-color: colors.$black;
     text-align: center;
+    padding: 50px 50px;
     p {
-        color: colors.$white;
+        color: colors.$footer_text;
     }
     a {
         text-decoration: none;
-        color: colors.$white;
+        color: colors.$footer_text;
+        margin-right: 10px;
     }
 }

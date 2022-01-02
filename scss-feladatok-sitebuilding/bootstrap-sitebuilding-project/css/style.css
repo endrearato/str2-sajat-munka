@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Catamaran&family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Catamaran&family=Lato&family=Mulish&display=swap");
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 header {
   background-image: url(./img/bg-pattern.png), linear-gradient(to right, #de2634, #7b4290);
   font-family: Muli, Helvetica, Arial, sans-serif;
-  padding: 25px 0 25px 0;
+  padding: 25px 10px 25px 10px;
 }
 header a {
   text-decoration: none;
@@ -25,11 +31,15 @@ header::after {
   background-image: url(./img/bg-pattern.png), linear-gradient(to right, #de2634, #7b4290);
   font-family: Catamaran, Helvetica, Arial, sans-serif;
   position: relative;
-  height: 50vh;
+  height: 100vh;
+  text-align: center;
+  padding-top: 20vh;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .first img {
-  position: absolute;
-  right: 20%;
+  margin: 0 auto;
+  height: 40vh;
 }
 .first p {
   color: white;
@@ -45,23 +55,53 @@ header::after {
   color: white;
   padding: 5px 10px;
   display: block;
+  margin: 50px auto;
 }
 
 .second {
   background-color: #fdcb4e;
-  padding: 25px 0 25px 0;
+  text-align: center;
   font-family: Catamaran, Helvetica, Arial, sans-serif;
+  height: 80vh;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.second a {
+  display: block;
+  margin-top: 10px;
+}
+.second h3 {
+  font-size: 3rem;
+  line-height: 2rem;
+  padding-top: 30vh;
 }
 
 .third {
   font-family: Catamaran, Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin: 100px 0;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.third h3 {
+  font-size: 3rem;
+}
+.third i {
+  color: #a13b6d;
+  font-size: 4rem;
+}
+.third hr {
+  color: #a13b6d;
 }
 
 .fourth {
   font-family: Catamaran, Helvetica, Arial, sans-serif;
   background-image: url(./bootstrap-sitebuilding-project/img/bg-cta.jpg);
   background-position: center;
-  height: 50vh;
+  height: 100vh;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .fourth button {
   font-family: Lato, Helvetica, Arial, sans-serif;
@@ -70,28 +110,45 @@ header::after {
   border-radius: 15px;
   color: white;
   padding: 5px 10px;
+  margin-left: 10%;
+}
+.fourth p {
+  color: white;
+  margin-left: 10%;
+  font-size: 3rem;
 }
 
 .fifth {
   font-family: Catamaran, Helvetica, Arial, sans-serif;
   background-color: #fdcb4e;
   text-align: center;
+  padding: 150px 50px;
 }
 .fifth img {
   max-width: 50px;
+}
+.fifth h2 {
+  color: black;
+  font-size: 3rem;
+}
+.fifth h2 p {
+  color: red;
+  display: inline;
 }
 
 footer {
   font-family: Catamaran, Helvetica, Arial, sans-serif;
   background-color: black;
   text-align: center;
+  padding: 50px 50px;
 }
 footer p {
-  color: white;
+  color: gray;
 }
 footer a {
   text-decoration: none;
-  color: white;
+  color: gray;
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

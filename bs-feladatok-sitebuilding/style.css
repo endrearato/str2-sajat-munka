@@ -12,6 +12,10 @@ Bekezdések: Muli, Helvetica, Arial, sans-serif
 A footer egységesen: Muli, Helvetica, Arial, sans-serif
 */
 
+#modal {
+    display: none;
+}
+
 .first-part {    
     background-image:url(./img/bg-pattern.png), linear-gradient(to right, rgba(183,28,27,1) , rgba(128,0,128,1));    
 }

@@ -17,17 +17,17 @@ A footer egységesen: Muli, Helvetica, Arial, sans-serif
 }
 
 .first-part {    
-    background-image:url(./img/bg-pattern.png), linear-gradient(to right, rgba(183,28,27,1) , rgba(128,0,128,1));    
+    background-image:url(./img/bg-pattern.png), linear-gradient(to right, rgba(222,38,52,255) , rgba(123,66,144,255));    
 }
 
 .navbar {
     position: sticky;
     top: 0;
-    background-image:url(./img/bg-pattern.png), linear-gradient(to right, rgba(183,28,27,1) , rgba(128,0,128,1));
+    background-image:url(./img/bg-pattern.png), linear-gradient(to right, rgba(222,38,52,255) , rgba(123,66,144,255));
 }
 
 .second-part {
-    background: yellow;
+    background: rgba(253,203,78,255);
 }
 
 .fourth-part {
@@ -38,7 +38,7 @@ A footer egységesen: Muli, Helvetica, Arial, sans-serif
 }
 
 .fifth-part {
-    background-color: yellow;
+    background-color: rgba(253,203,78,255);
 }
 
 footer {

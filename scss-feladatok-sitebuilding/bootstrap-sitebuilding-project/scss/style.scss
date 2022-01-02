@@ -1,0 +1,11 @@
+@use 'colors';
+@use 'fonts';
+
+header {
+    background-image:url(./img/bg-pattern.png), linear-gradient(to right, rgba(183,28,27,1) , rgba(128,0,128,1));
+    font-family: fonts.$paragraph_link;
+}
+
+.second {
+    background-color: colors.$yellow;
+}
